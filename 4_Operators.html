@@ -16,34 +16,45 @@
     // 1) Arithmetic Operators : Used for basic math calculations
 
         // i) Addition:
-        let add = a+b;
-        console.log("Addition: ", add);
+            let add = a+b;
+            console.log("Addition: ", add);
         
         // ii) Subtraction:
-        let sub = a-b;
-        console.log("Subtraction: ", sub);
+            let sub = a-b;
+            console.log("Subtraction: ", sub);
 
         // iii) Multiplication:
-        let mul = a*b;
-        console.log("Multiplication: ", mul);
+            let mul = a*b;
+            console.log("Multiplication: ", mul);
 
         // iv) Division:
-        let div = a/b;
-        console.log("Division: ", div)
+            let div = a/b;
+            console.log("Division: ", div)
 
         // v) Modules(remainder):
-        let mod = 3%2;
-        console.log("Modules: ", mod);
+            let mod = 3%2;
+            console.log("Modules: ", mod);
         
         // vi) Exponentiation:
-        let expo = a**b;
-        console.log("Exponentiation: ", expo);
+            let expo = a**b;
+            console.log("Exponentiation: ", expo);
 
-        // vii) Increment:
-        a++
+        // vii) POSTFIX (x++, x--): "Give now, change later":- "I’ll give you the number first, then I’ll increase/decrease it."
+            // The operator ++ doesn't just return a value — it also modifies the variable it's used on. Even if you're only assigning the value to another variable (given), the side effect is that apples gets incremented.
+            let apples = 1;
+            let given = apples++;//Gets the value of apples(1) assigns to given(variable) and then increments the apples value
+            let taken = apples--; 
+            console.log("Apples are: ", apples); //1
+            console.log("Taken are: ",taken) //2
+            console.log("Given are: ",given); //1
 
-        // viii) Decrement:
-        a--
+        // viii) PREFIX (++x,--x): I’ll increase/decrease it first, then give you the new number.
+            let mango = 10;
+            let borrow = ++mango; //Incremets the value of mango first(which is now 11) then assigns it to borrow(variable)
+            let lend = --mango; // 10
+            console.log("Mango: ", mango); // 10
+            console.log("Borrow: ", borrow); //11
+            console.log("Lend: ", lend); //10
 
 
     // ii)Assignment operator
