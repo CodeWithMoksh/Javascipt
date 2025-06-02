@@ -97,6 +97,21 @@
     // 1) { ... } => Loop body — executes once per key   
 
 
+// FOREACH LOOP:-
+    // forEach() is a method that belongs to arrays in JavaScript.
+    // It lets you execute a function once for each element in the array.
+    
+    // Syntax: array.forEach((currentValue, index, array) => {
+        // code block to run
+    // });
+
+    let fore = [1,2,3,"Hello",5,6,"World",8,true];
+
+    fore.forEach((element, index, array) => { //First parameter is the element(values), then the index and then the whole array.
+        console.log(`Element--> ${element} at index ${index}`);
+    });
+
+
 // USE OF BREAK:-
 // Use break to exit a loop early:
 for (let io = 1; io < 10; io++) {
@@ -117,5 +132,3 @@ for (let io = 1; io < 10; io++) {
         console.log("The number are: ",io);
     };
 };
-
-
