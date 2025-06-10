@@ -25,11 +25,13 @@
     }
 
     // Execution Flow:-
-    // 1) Initialization → let i = 1; (only once)
-    // 2) Check condition → Is i <= 5? If true then continue and if false then exit the loop.
-    // 3) Run loop body → console.log(...)
-    // 4) Increment or update → i++
-    // 5) Back to Step 2
+        // 1) Initialization – Set initial values for variables used in the condition.
+        // 2) Condition Check – Evaluate the condition:
+            // If True, proceed to step 3.
+            // If False, exit the loop.
+        // 3) Loop Body Execution – Run the code inside the loop.
+        // 4) Update – Change variable(s) affecting the condition.
+        // 5) Repeat – Go back to step 2.
 
 
 // DO...WHILE LOOP:-
@@ -66,7 +68,7 @@
 
     // Use case in Strings
     const word = "Hello";
-    for(const char of word){
+    for(const char of word){ //It gets each character of the string one by one
         console.log(char);
     }
     
@@ -74,7 +76,7 @@
     // 1) It takes the value of the iterable present on index 0.
     // 2) Gives the taken value t the element created. For ex:- fruit and char.
     // 3) Run the code inside {}.
-    // 4) Repeates from step 1 until all the last index.
+    // 4) Repeates from step 1 until the last index.
     
     
 // FOR..IN LOOPS:-
